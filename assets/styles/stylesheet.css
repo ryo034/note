@@ -81,7 +81,6 @@ p,
 span,
 div {
   font-size: 18px;
-  line-height: 36px;
 }
 
 h1,
@@ -369,8 +368,15 @@ td {
 }
 
 .hljs {
+  padding: 36px !important;
+  margin-top: 36px !important;
+  margin-bottom: 36px !important;
+  font-family: note monospace,SFMono-Regular,Consolas,Menlo,Courier,monospace !important;
+  line-height: 18px !important;
+  color: #fff !important;
+  white-space: pre-wrap !important;
+  background-color: #282c34 !important;
   font-size: 12px !important;
-  padding: 1.2rem !important;
 }
 .hljs span,
 .hljs pre {
