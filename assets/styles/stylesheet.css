@@ -355,6 +355,10 @@ td {
   margin-left: auto;
 }
 
+.pageTitle {
+  margin: 24px 0;
+}
+
 .title_button_link {
   font-weight: bold;
   text-decoration: none;
