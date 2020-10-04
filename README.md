@@ -30,7 +30,7 @@
 例： `int i = 0`
 
 ```js
-const sampe = sample;
+const sampe = false;
 ```
 
 例：[Qiita](http://qiita.com/)

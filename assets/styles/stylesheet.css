@@ -367,3 +367,11 @@ td {
 .title_button_link:hover {
   color: #333;
 }
+
+.hljs {
+  padding: 1.2rem;
+}
+.hljs span,
+.hljs pre {
+  font-size: 12px;
+}
