@@ -4,28 +4,45 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
 
-    <!-- <link
-      rel="stylesheet"
-      type="text/css"
-      href="/note/assets/styles/medium-markdown.css"
-    /> -->
     <link rel="stylesheet" type="text/css" href="/note/assets/styles/stylesheet.css" media="screen">
-  <!-- <link rel="stylesheet" type="text/css" href="/note/assets/styles/github-dark.css" media="screen"> -->
-  <!-- <link rel="stylesheet" type="text/css" href="/note/assets/styles/print.css" media="print"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/vs.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 
-    <title>{{ page.title }} - sample title</title>
+    <title>{{ page.title }} - ryo の note</title>
   </head>
 
   <body>
     <header>
       <div class="container">
         <h2>sample</h2>
-
         <section id="downloads">
           <a href="https://github.com/ryo034/note" class="btn btn-github">
             <span class="icon"></span>View on GitHub
           </a>
         </section>
+      </div>
+    </header>
+
+    <header class="navBar">
+      <div class="navbarTop navBar__inner">
+        <h1>
+          <a href="https://ryo034.github.io/note/" class="title_button_link">
+            Ryoのnote
+          </a>
+        </h1>
+        <nav class="navbarTop__nav">
+          <div class="navbarTop__navItem">
+            <a
+              href="https://note.com/signup?redirectPath=%2Fatsumimaiko%2Fn%2Fn642afcf1cf5b"
+              target="_self"
+              data-disable-focus="false"
+              class="a_button"
+            >
+              <div class="a_button__inner">View on GitHub</div>
+            </a>
+          </div>
+        </nav>
       </div>
     </header>
 
