@@ -4,5 +4,5 @@
 
 ブログは[こちら](https://inokawablog.org/)
 
-- [お気に入り記事](https://github.com/ryo034/note/like-articles)
-- [Macのセットアップ](https://github.com/ryo034/note/mac-setup)
+- [お気に入り記事](https://ryo034.github.io/note/like-articles)
+- [Macのセットアップ](https://ryo034.github.io/note/mac-setup)

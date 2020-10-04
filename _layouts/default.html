@@ -13,12 +13,6 @@
   <title>{{ page.title }} - ryo の note</title>
 </head>
 
-{% if page.lastmod %}
-{% assign lastmod = page.lastmod %}
-{% else %}
-{% assign lastmod = page.date %}
-{% endif %}
-
 <body>
 
   <header class="navBar">
@@ -41,9 +35,6 @@
 
   <div class="container">
     <section class="main_content">
-      <span>最終更新:
-        <time itemprop="dateModified" datetime="{{ lastmod }}">{{ lastmod }}</time>
-      </span>
       <div id="markdown">{{ content }}</div>
     </section>
   </div>
